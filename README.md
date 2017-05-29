@@ -2,7 +2,7 @@
 
 ## 1) Dernier match d'une équipe
 
-### Paramètres :
+#### Paramètres :
 
 <b>name (requis)</b> : nom de l'équipe (ex : lyon)
 
@@ -17,7 +17,7 @@
 
 ## 2) Dernière journée d'un championnat
 
-### Paramètres :
+#### Paramètres :
 
 <b>name (requis)</b> : nom de du pays (ex : france) <br>
 <b>name-champ (requis)</b> : nom du championnat (ex : ligue-1)
