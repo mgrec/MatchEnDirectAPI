@@ -125,6 +125,23 @@
 
 ### Réponse :
 
+```
+[
+  [
+    "Bordeaux"
+  ],
+  [
+    " 1"
+  ],
+  [
+    "1 "
+  ],
+  [
+    "Lyon"
+  ]
+]
+```
+
 ## 5) Classement d'un championnat
 
 ### Paramètres :
