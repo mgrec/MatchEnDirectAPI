@@ -65,17 +65,17 @@
 
 ## 5) Classement d'un championnat
 
-### Paramètres :
+## Paramètres :
 
 <b>name (requis)</b> : nom de du pays (ex : france) <br>
 <b>name-champ (requis)</b> : nom du championnat (ex : ligue-1)
 
-### Route :
+## Route :
 
 ```
 /classement/pays/{name}/championnat/{name-champ}
 ```
 
-### Réponse :
+## Réponse :
 
 
