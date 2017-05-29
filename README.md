@@ -67,8 +67,8 @@
 
 #### Paramètres :
 
-<b>name (requis)</b> : nom de du pays (ex : france) <br>
-<b>name-champ (requis)</b> : nom du championnat (ex : ligue-1)
+<b>_name (requis)_</b> : nom de du pays (ex : france) <br>
+<b>_name-champ (requis)_</b> : nom du championnat (ex : ligue-1)
 
 #### Route :
 
