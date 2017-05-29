@@ -54,6 +54,7 @@
 
 ```
 [
+  [
     "Monaco",
     "2 - 0",
     "Saint-Étienne"
@@ -87,6 +88,26 @@
 ```
 
 ### Réponse :
+```
+[
+  [
+    "Saint-Étienne",
+    "2 - 2",
+    "Bordeaux"
+  ],
+  [
+    "PSG",
+    "5 - 0",
+    "Bastia"
+  ],
+  [
+    "Nancy",
+    "0 - 3",
+    "Monaco"
+  ],
+  ...
+ ]
+```
 
 
 ## 4) Score d'un match en particulier (en cours ou fini)
