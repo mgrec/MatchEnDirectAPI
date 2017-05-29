@@ -48,8 +48,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="345">
-                <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+              <first_editor relative-caret-position="240">
+                <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -211,12 +211,12 @@
       <option name="presentableId" value="Default" />
       <updated>1496044032877</updated>
       <workItem from="1496044034220" duration="139000" />
-      <workItem from="1496044265658" duration="9739000" />
+      <workItem from="1496044265658" duration="9790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9878000" />
+    <option name="totallyTimeSpent" value="9929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -310,8 +310,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="345">
-            <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+          <first_editor relative-caret-position="240">
+            <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
