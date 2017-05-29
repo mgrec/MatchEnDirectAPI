@@ -48,3 +48,19 @@
 ### Réponse :
 
 
+## 4) Score d'un match en particulier (en cours ou fini)
+
+### Paramètres :
+
+<b>name-dom (requis)</b> : nom de l'équipe à domicile (ex : lyon) <br>
+<b>name-ext (requis)</b> : nom de l'équipe à l'exterieur (ex : bordeaux)
+
+### Route :
+
+```
+/live-score/{name-dom}-{name-ext}
+```
+
+### Réponse :
+
+
