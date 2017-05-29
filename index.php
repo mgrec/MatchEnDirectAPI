@@ -165,7 +165,7 @@ $app->get('/classement/pays/{name}/championnat/{name-champ}', function ($request
 
     // construct tab results
     foreach ($tabEquipe as $key => $item){
-        $finalTab[$key] = array('equipe' => substr($item, 1), 'points' => (int)$tabPts[$key]);
+        $finalTab[$key] = array('place' => ($key+1), 'equipe' => substr($item, 1), 'points' => (int)$tabPts[$key]);
     }
 
 
