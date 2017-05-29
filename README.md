@@ -4,7 +4,7 @@
 
 ### Paramètres :
 
-name (requis) : nom de l'équipe (ex : lyon)
+<b>name (requis)</b> : nom de l'équipe (ex : lyon)
 
 #### Route :
 
@@ -19,8 +19,8 @@ name (requis) : nom de l'équipe (ex : lyon)
 
 ### Paramètres :
 
-name (requis) : nom de du pays (ex : france) <br>
-name-champ (requis) : nom du championnat (ex : ligue-1)
+<b>name (requis)</b> : nom de du pays (ex : france) <br>
+<b>name-champ (requis)</b> : nom du championnat (ex : ligue-1)
 
 #### Route :
 
