@@ -52,6 +52,26 @@
 
 ### Réponse :
 
+```
+[
+    "Monaco",
+    "2 - 0",
+    "Saint-Étienne"
+  ],
+  [
+    "Nancy",
+    "3 - 1",
+    "Saint-Étienne"
+  ],
+  [
+    "Lorient",
+    "1 - 1",
+    "Bordeaux"
+  ],
+  ...
+ ]
+```
+
 ## 3) Journée d'un championnat en particulier
 
 ### Paramètres :
