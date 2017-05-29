@@ -2,31 +2,31 @@
 
 ## 1) Dernier match d'une équipe
 
-#### Paramètres :
+### Paramètres :
 
 <b>name (requis)</b> : nom de l'équipe (ex : lyon)
 
-#### Route :
+### Route :
 
 ```
 /last-score/{name}
 ```
 
-#### Réponse :
+### Réponse :
 
 
 ## 2) Dernière journée d'un championnat
 
-#### Paramètres :
+### Paramètres :
 
 <b>name (requis)</b> : nom de du pays (ex : france) <br>
 <b>name-champ (requis)</b> : nom du championnat (ex : ligue-1)
 
-#### Route :
+### Route :
 
 ```
 /pays/{name}/championnat/{name-champ}
 ```
 
-#### Réponse :
+### Réponse :
 
