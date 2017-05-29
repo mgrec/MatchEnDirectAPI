@@ -15,6 +15,28 @@
 
 ### Réponse :
 
+```
+[
+  [
+    "Lyon",
+    "5 - 0",
+    "Montpellier"
+  ],
+  [
+    "Marseille",
+    "2 - 1",
+    "Lyon"
+  ],
+  [
+    "PSG",
+    "4 - 1",
+    "Lyon"
+  ],
+  ...
+ ]
+
+```
+
 
 ## 2) Dernière journée d'un championnat
 
