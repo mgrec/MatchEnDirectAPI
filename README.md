@@ -157,4 +157,42 @@
 
 ### Réponse :
 
+```
+[
+  {
+    "place": 1,
+    "equipe": "Monaco",
+    "points": 95
+  },
+  {
+    "place": 2,
+    "equipe": "PSG",
+    "points": 87
+  },
+  {
+    "place": 3,
+    "equipe": "Nice",
+    "points": 78
+  },
+  {
+    "place": 4,
+    "equipe": "Lyon",
+    "points": 67
+  },
+
+  ...
+
+  {
+    "place": 19,
+    "equipe": "Nancy",
+    "points": 35
+  },
+  {
+    "place": 20,
+    "equipe": "Bastia",
+    "points": 34
+  }
+]
+```
+
 
