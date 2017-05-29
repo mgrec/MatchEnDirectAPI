@@ -78,7 +78,7 @@ $app->get('/pays/{name}/championnat/{name-champ}', function ($request, $response
 });
 
 // journée de championnat
-$app->get('/pays/{name}/championnat/{name-champ}/{annee-jour}', function ($request, $response, $args) {
+$app->get('/pays/{name}/championnat/{name-champ}/date/{annee-jour}', function ($request, $response, $args) {
 
     // var declaration
     $name = $args['name'];

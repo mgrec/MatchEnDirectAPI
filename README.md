@@ -42,7 +42,7 @@
 ### Route :
 
 ```
-/pays/{name}/championnat/{name-champ}/{annee-jour}
+/pays/{name}/championnat/{name-champ}/date/{annee-jour}
 ```
 
 ### Réponse :
