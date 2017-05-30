@@ -35,7 +35,7 @@
     "score": "4 - 1",
     "equipe_exterieur": "Lyon"
   }
- ]
+]
 ```
 
 
@@ -74,7 +74,7 @@
     "score": "1 - 1",
     "equipe_exterieur": "Bordeaux"
   }
- ]
+]
 ```
 
 ## 3) Journée d'un championnat en particulier
@@ -92,25 +92,28 @@
 ```
 
 ### Réponse :
-```
+
+```json
 [
-  [
-    "Saint-Étienne",
-    "2 - 2",
-    "Bordeaux"
-  ],
-  [
-    "PSG",
-    "5 - 0",
-    "Bastia"
-  ],
-  [
-    "Nancy",
-    "0 - 3",
-    "Monaco"
-  ],
-  ...
- ]
+  {
+    "id": 1,
+    "equipe_domicile": "Saint-Étienne",
+    "score": "2 - 2",
+    "equipe_exterieur": "Bordeaux"
+  },
+  {
+    "id": 2,
+    "equipe_domicile": "PSG",
+    "score": "5 - 0",
+    "equipe_exterieur": "Bastia"
+  },
+  {
+    "id": 3,
+    "equipe_domicile": "Nancy",
+    "score": "0 - 3",
+    "equipe_exterieur": "Monaco"
+  }
+]
 ```
 
 
