@@ -38,7 +38,7 @@
 ]
 ```
 
-_Essayer_ : [https://matchendirect-api.herokuapp.com/last-score/equipe/lyon](https://matchendirect-api.herokuapp.com/last-score/equipe/lyon)
+_Essayer : [https://matchendirect-api.herokuapp.com/last-score/equipe/lyon](https://matchendirect-api.herokuapp.com/last-score/equipe/lyon)_
 
 ## 2) Dernière journée d'un championnat
 
