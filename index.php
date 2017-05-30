@@ -21,25 +21,28 @@ $app->get('/last-score/{name}', function ($request, $response, $args) {
 
     // var declaration
     $name = $args['name'];
-    $tab = [];
     $client = new Client();
     $crawler = $client->request('GET', 'http://www.matchendirect.fr/equipe/' . $name . '.html');
     $finalTab = [];
-
-    // get information from page
-    $tab = $crawler->filter('.lm3 span')->each(function ($node) {
+    
+    // tableau contenant le nom des équipe à domicile
+    $array_domicile = $crawler->filter('.lm3_eq1')->each(function ($node) {
         return $node->text();
     });
 
-    // construct tab results
-    foreach ($tab as $key => $item) {
+    // tableau contenant les scores
+    $array_score = $crawler->filter('.lm3_score')->each(function ($node) {
+        return $node->text();
+    });
 
-        $match[] = $item;
+    // tableau contenant le nom des équipe à l'exterieur
+    $array_exterieur = $crawler->filter('.lm3_eq2')->each(function ($node) {
+        return $node->text();
+    });
 
-        if (($key + 1) % 3 == 0) {
-            $finalTab[] = $match;
-            $match = [];
-        }
+    // on crée le tableau de réponse
+    foreach ($array_domicile as $key => $item){
+        $finalTab[$key] = array('id' => ($key+1), 'equipe_domicile' => $item, 'score' => $array_score[$key], 'equipe_exterieur' => $array_exterieur[$key]);
     }
 
     // return results in JSON
@@ -81,6 +84,7 @@ $app->get('/pays/{name}/championnat/{name-champ}', function ($request, $response
 $app->get('/pays/{name}/championnat/{name-champ}/date/{annee-jour}', function ($request, $response, $args) {
 
     // var declaration
+    $id = 0;
     $name = $args['name'];
     $champ = $args['name-champ'];
     $date = $args['annee-jour'];
@@ -88,6 +92,7 @@ $app->get('/pays/{name}/championnat/{name-champ}/date/{annee-jour}', function ($
     $client = new Client();
     $crawler = $client->request('GET', 'http://www.matchendirect.fr/' . $name . '/' . $champ . '/' . $date . '/');
     $finalTab = [];
+    $tabRes = [];
 
     // get information from page
     $tab = $crawler->filter('.lm3 span')->each(function ($node) {
