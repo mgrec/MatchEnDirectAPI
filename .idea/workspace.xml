@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="27dd8e7e-4765-46c3-88bb-7cf52f6d8fcb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="MatchEnDirectAPI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,10 +32,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2940">
+            <state relative-caret-position="2640">
               <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
               <folding>
                 <element signature="e#147#178#0#PHP" expanded="true" />
@@ -44,17 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <first_editor relative-caret-position="750">
+                <caret line="72" column="3" selection-start-line="72" selection-start-column="3" selection-end-line="72" selection-end-column="3" />
                 <folding>
-                  <marker date="1496130523000" expanded="true" signature="189:521" placeholder="[...]" />
-                  <marker date="1496130523000" expanded="true" signature="193:302" placeholder="{&quot;id&quot;: 1...}" />
-                  <marker date="1496130523000" expanded="true" signature="306:413" placeholder="{&quot;id&quot;: 2...}" />
-                  <marker date="1496130523000" expanded="true" signature="417:518" placeholder="{&quot;id&quot;: 3...}" />
+                  <marker date="1496131506000" expanded="true" signature="189:521" placeholder="[...]" />
+                  <marker date="1496131506000" expanded="true" signature="193:302" placeholder="{&quot;id&quot;: 1...}" />
+                  <marker date="1496131506000" expanded="true" signature="306:413" placeholder="{&quot;id&quot;: 2...}" />
+                  <marker date="1496131506000" expanded="true" signature="417:518" placeholder="{&quot;id&quot;: 3...}" />
+                  <marker date="1496131506000" expanded="true" signature="791:957" placeholder="[...]" />
+                  <marker date="1496131506000" expanded="true" signature="795:847" placeholder="[...]" />
+                  <marker date="1496131506000" expanded="true" signature="851:902" placeholder="[...]" />
+                  <marker date="1496131506000" expanded="true" signature="906:954" placeholder="[...]" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -82,8 +86,8 @@
       <list>
         <option value="$PROJECT_DIR$/app/run.php" />
         <option value="$PROJECT_DIR$/app/route.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -216,12 +220,12 @@
       <option name="presentableId" value="Default" />
       <updated>1496044032877</updated>
       <workItem from="1496044034220" duration="139000" />
-      <workItem from="1496044265658" duration="13151000" />
+      <workItem from="1496044265658" duration="13421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13290000" />
+    <option name="totallyTimeSpent" value="13560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -302,29 +306,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-            <folding>
-              <marker date="1496130523000" expanded="true" signature="189:521" placeholder="[...]" />
-              <marker date="1496130523000" expanded="true" signature="193:302" placeholder="{&quot;id&quot;: 1...}" />
-              <marker date="1496130523000" expanded="true" signature="306:413" placeholder="{&quot;id&quot;: 2...}" />
-              <marker date="1496130523000" expanded="true" signature="417:518" placeholder="{&quot;id&quot;: 3...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
+        <state relative-caret-position="2640">
           <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
           <folding>
             <element signature="e#147#178#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="750">
+            <caret line="72" column="3" selection-start-line="72" selection-start-column="3" selection-end-line="72" selection-end-column="3" />
+            <folding>
+              <marker date="1496131506000" expanded="true" signature="189:521" placeholder="[...]" />
+              <marker date="1496131506000" expanded="true" signature="193:302" placeholder="{&quot;id&quot;: 1...}" />
+              <marker date="1496131506000" expanded="true" signature="306:413" placeholder="{&quot;id&quot;: 2...}" />
+              <marker date="1496131506000" expanded="true" signature="417:518" placeholder="{&quot;id&quot;: 3...}" />
+              <marker date="1496131506000" expanded="true" signature="791:957" placeholder="[...]" />
+              <marker date="1496131506000" expanded="true" signature="795:847" placeholder="[...]" />
+              <marker date="1496131506000" expanded="true" signature="851:902" placeholder="[...]" />
+              <marker date="1496131506000" expanded="true" signature="906:954" placeholder="[...]" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

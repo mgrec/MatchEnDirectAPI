@@ -54,24 +54,26 @@
 
 ### Réponse :
 
-```
+```json
 [
-  [
-    "Monaco",
-    "2 - 0",
-    "Saint-Étienne"
-  ],
-  [
-    "Nancy",
-    "3 - 1",
-    "Saint-Étienne"
-  ],
-  [
-    "Lorient",
-    "1 - 1",
-    "Bordeaux"
-  ],
-  ...
+  {
+    "id": 1,
+    "equipe_domicile": "Monaco",
+    "score": "2 - 0",
+    "equipe_exterieur": "Saint-Étienne"
+  },
+  {
+    "id": 2,
+    "equipe_domicile": "Nancy",
+    "score": "3 - 1",
+    "equipe_exterieur": "Saint-Étienne"
+  },
+  {
+    "id": 3,
+    "equipe_domicile": "Lorient",
+    "score": "1 - 1",
+    "equipe_exterieur": "Bordeaux"
+  }
  ]
 ```
 
