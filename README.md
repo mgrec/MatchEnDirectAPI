@@ -135,10 +135,13 @@
 ```json
 [
   {
-    "equipe_domicile": "Bordeaux",
-    "score_domicile": " 1",
-    "score_exterieur": "1 ",
-    "equipe_exterieur": "Lyon"
+    "equipe_domicile": "Monaco",
+    "score_domicile": "2",
+    "score_exterieur": "0",
+    "equipe_exterieur": "Saint-Étienne",
+    "cote_1": "1.12",
+    "cote_n": "8.00",
+    "cote_2": "14.00"
   }
 ]
 ```
@@ -192,5 +195,3 @@
   }
 ]
 ```
-
-

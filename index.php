@@ -156,9 +156,12 @@ $app->get('/live-score/equipe/{name-dom}-{name-ext}', function ($request, $respo
     $score = $crawler->filter('.score')->each(function ($node) {
         return $node->text();
     });
+    $cote = $crawler->filter('.tableau_comparateur td')->each(function ($node) {
+        return $node->text();
+    });
 
     // construct tab results
-    $finalTab[] = array('equipe_domicile' => str_replace($replace, '', $equipe[0]), 'score_domicile' => $score[0], 'score_exterieur' => $score[1], 'equipe_exterieur' => str_replace($replace, '', $equipe[1]),);
+    $finalTab[] = array('equipe_domicile' => str_replace($replace, '', $equipe[0]), 'score_domicile' => $score[0], 'score_exterieur' => $score[1], 'equipe_exterieur' => str_replace($replace, '', $equipe[1]), 'cote_1' => $cote[3], 'cote_n' => $cote[4], 'cote_2' => $cote[5]);
 
     // return results in JSON
     return json_encode($finalTab);
