@@ -186,9 +186,6 @@
     "equipe": "Lyon",
     "points": 67
   },
-
-  //...
-
   {
     "place": 19,
     "equipe": "Nancy",

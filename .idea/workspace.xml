@@ -48,28 +48,28 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-222">
-                <caret line="166" column="7" selection-start-line="166" selection-start-column="7" selection-end-line="166" selection-end-column="7" />
+              <first_editor relative-caret-position="123">
+                <caret line="189" column="4" selection-start-line="189" selection-start-column="4" selection-end-line="189" selection-end-column="4" />
                 <folding>
-                  <marker date="1496131925000" expanded="true" signature="189:520" placeholder="[...]" />
-                  <marker date="1496131925000" expanded="true" signature="193:302" placeholder="{&quot;id&quot;: 1...}" />
-                  <marker date="1496131925000" expanded="true" signature="306:413" placeholder="{&quot;id&quot;: 2...}" />
-                  <marker date="1496131925000" expanded="true" signature="417:518" placeholder="{&quot;id&quot;: 3...}" />
-                  <marker date="1496131925000" expanded="true" signature="790:1138" placeholder="[...]" />
-                  <marker date="1496131925000" expanded="true" signature="794:907" placeholder="{&quot;id&quot;: 1...}" />
-                  <marker date="1496131925000" expanded="true" signature="911:1023" placeholder="{&quot;id&quot;: 2...}" />
-                  <marker date="1496131925000" expanded="true" signature="1027:1136" placeholder="{&quot;id&quot;: 3...}" />
-                  <marker date="1496131925000" expanded="true" signature="1480:1817" placeholder="[...]" />
-                  <marker date="1496131925000" expanded="true" signature="1484:1599" placeholder="{&quot;id&quot;: 1...}" />
-                  <marker date="1496131925000" expanded="true" signature="1603:1706" placeholder="{&quot;id&quot;: 2...}" />
-                  <marker date="1496131925000" expanded="true" signature="1710:1815" placeholder="{&quot;id&quot;: 3...}" />
-                  <marker date="1496131925000" expanded="true" signature="2476:2876" placeholder="[...]" />
-                  <marker date="1496131925000" expanded="true" signature="2480:2542" placeholder="{&quot;place&quot;: 1...}" />
-                  <marker date="1496131925000" expanded="true" signature="2546:2605" placeholder="{&quot;place&quot;: 2...}" />
-                  <marker date="1496131925000" expanded="true" signature="2609:2669" placeholder="{&quot;place&quot;: 3...}" />
-                  <marker date="1496131925000" expanded="true" signature="2673:2733" placeholder="{&quot;place&quot;: 4...}" />
-                  <marker date="1496131925000" expanded="true" signature="2745:2807" placeholder="{&quot;place&quot;: 19...}" />
-                  <marker date="1496131925000" expanded="true" signature="2811:2874" placeholder="{&quot;place&quot;: 20...}" />
+                  <marker date="1496131946000" expanded="true" signature="189:520" placeholder="[...]" />
+                  <marker date="1496131946000" expanded="true" signature="193:302" placeholder="{&quot;id&quot;: 1...}" />
+                  <marker date="1496131946000" expanded="true" signature="306:413" placeholder="{&quot;id&quot;: 2...}" />
+                  <marker date="1496131946000" expanded="true" signature="417:518" placeholder="{&quot;id&quot;: 3...}" />
+                  <marker date="1496131946000" expanded="true" signature="790:1138" placeholder="[...]" />
+                  <marker date="1496131946000" expanded="true" signature="794:907" placeholder="{&quot;id&quot;: 1...}" />
+                  <marker date="1496131946000" expanded="true" signature="911:1023" placeholder="{&quot;id&quot;: 2...}" />
+                  <marker date="1496131946000" expanded="true" signature="1027:1136" placeholder="{&quot;id&quot;: 3...}" />
+                  <marker date="1496131946000" expanded="true" signature="1480:1817" placeholder="[...]" />
+                  <marker date="1496131946000" expanded="true" signature="1484:1599" placeholder="{&quot;id&quot;: 1...}" />
+                  <marker date="1496131946000" expanded="true" signature="1603:1706" placeholder="{&quot;id&quot;: 2...}" />
+                  <marker date="1496131946000" expanded="true" signature="1710:1815" placeholder="{&quot;id&quot;: 3...}" />
+                  <marker date="1496131946000" expanded="true" signature="2476:2878" placeholder="[...]" />
+                  <marker date="1496131946000" expanded="true" signature="2480:2542" placeholder="{&quot;place&quot;: 1...}" />
+                  <marker date="1496131946000" expanded="true" signature="2546:2605" placeholder="{&quot;place&quot;: 2...}" />
+                  <marker date="1496131946000" expanded="true" signature="2609:2669" placeholder="{&quot;place&quot;: 3...}" />
+                  <marker date="1496131946000" expanded="true" signature="2673:2733" placeholder="{&quot;place&quot;: 4...}" />
+                  <marker date="1496131946000" expanded="true" signature="2747:2809" placeholder="{&quot;place&quot;: 19...}" />
+                  <marker date="1496131946000" expanded="true" signature="2813:2876" placeholder="{&quot;place&quot;: 20...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -231,12 +231,12 @@
       <option name="presentableId" value="Default" />
       <updated>1496044032877</updated>
       <workItem from="1496044034220" duration="139000" />
-      <workItem from="1496044265658" duration="13699000" />
+      <workItem from="1496044265658" duration="13717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13838000" />
+    <option name="totallyTimeSpent" value="13856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -330,28 +330,28 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-222">
-            <caret line="166" column="7" selection-start-line="166" selection-start-column="7" selection-end-line="166" selection-end-column="7" />
+          <first_editor relative-caret-position="123">
+            <caret line="189" column="4" selection-start-line="189" selection-start-column="4" selection-end-line="189" selection-end-column="4" />
             <folding>
-              <marker date="1496131925000" expanded="true" signature="189:520" placeholder="[...]" />
-              <marker date="1496131925000" expanded="true" signature="193:302" placeholder="{&quot;id&quot;: 1...}" />
-              <marker date="1496131925000" expanded="true" signature="306:413" placeholder="{&quot;id&quot;: 2...}" />
-              <marker date="1496131925000" expanded="true" signature="417:518" placeholder="{&quot;id&quot;: 3...}" />
-              <marker date="1496131925000" expanded="true" signature="790:1138" placeholder="[...]" />
-              <marker date="1496131925000" expanded="true" signature="794:907" placeholder="{&quot;id&quot;: 1...}" />
-              <marker date="1496131925000" expanded="true" signature="911:1023" placeholder="{&quot;id&quot;: 2...}" />
-              <marker date="1496131925000" expanded="true" signature="1027:1136" placeholder="{&quot;id&quot;: 3...}" />
-              <marker date="1496131925000" expanded="true" signature="1480:1817" placeholder="[...]" />
-              <marker date="1496131925000" expanded="true" signature="1484:1599" placeholder="{&quot;id&quot;: 1...}" />
-              <marker date="1496131925000" expanded="true" signature="1603:1706" placeholder="{&quot;id&quot;: 2...}" />
-              <marker date="1496131925000" expanded="true" signature="1710:1815" placeholder="{&quot;id&quot;: 3...}" />
-              <marker date="1496131925000" expanded="true" signature="2476:2876" placeholder="[...]" />
-              <marker date="1496131925000" expanded="true" signature="2480:2542" placeholder="{&quot;place&quot;: 1...}" />
-              <marker date="1496131925000" expanded="true" signature="2546:2605" placeholder="{&quot;place&quot;: 2...}" />
-              <marker date="1496131925000" expanded="true" signature="2609:2669" placeholder="{&quot;place&quot;: 3...}" />
-              <marker date="1496131925000" expanded="true" signature="2673:2733" placeholder="{&quot;place&quot;: 4...}" />
-              <marker date="1496131925000" expanded="true" signature="2745:2807" placeholder="{&quot;place&quot;: 19...}" />
-              <marker date="1496131925000" expanded="true" signature="2811:2874" placeholder="{&quot;place&quot;: 20...}" />
+              <marker date="1496131946000" expanded="true" signature="189:520" placeholder="[...]" />
+              <marker date="1496131946000" expanded="true" signature="193:302" placeholder="{&quot;id&quot;: 1...}" />
+              <marker date="1496131946000" expanded="true" signature="306:413" placeholder="{&quot;id&quot;: 2...}" />
+              <marker date="1496131946000" expanded="true" signature="417:518" placeholder="{&quot;id&quot;: 3...}" />
+              <marker date="1496131946000" expanded="true" signature="790:1138" placeholder="[...]" />
+              <marker date="1496131946000" expanded="true" signature="794:907" placeholder="{&quot;id&quot;: 1...}" />
+              <marker date="1496131946000" expanded="true" signature="911:1023" placeholder="{&quot;id&quot;: 2...}" />
+              <marker date="1496131946000" expanded="true" signature="1027:1136" placeholder="{&quot;id&quot;: 3...}" />
+              <marker date="1496131946000" expanded="true" signature="1480:1817" placeholder="[...]" />
+              <marker date="1496131946000" expanded="true" signature="1484:1599" placeholder="{&quot;id&quot;: 1...}" />
+              <marker date="1496131946000" expanded="true" signature="1603:1706" placeholder="{&quot;id&quot;: 2...}" />
+              <marker date="1496131946000" expanded="true" signature="1710:1815" placeholder="{&quot;id&quot;: 3...}" />
+              <marker date="1496131946000" expanded="true" signature="2476:2878" placeholder="[...]" />
+              <marker date="1496131946000" expanded="true" signature="2480:2542" placeholder="{&quot;place&quot;: 1...}" />
+              <marker date="1496131946000" expanded="true" signature="2546:2605" placeholder="{&quot;place&quot;: 2...}" />
+              <marker date="1496131946000" expanded="true" signature="2609:2669" placeholder="{&quot;place&quot;: 3...}" />
+              <marker date="1496131946000" expanded="true" signature="2673:2733" placeholder="{&quot;place&quot;: 4...}" />
+              <marker date="1496131946000" expanded="true" signature="2747:2809" placeholder="{&quot;place&quot;: 19...}" />
+              <marker date="1496131946000" expanded="true" signature="2813:2876" placeholder="{&quot;place&quot;: 20...}" />
             </folding>
           </first_editor>
           <second_editor />
