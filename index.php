@@ -24,7 +24,7 @@ $app->get('/last-score/{name}', function ($request, $response, $args) {
     $client = new Client();
     $crawler = $client->request('GET', 'http://www.matchendirect.fr/equipe/' . $name . '.html');
     $finalTab = [];
-    
+
     // tableau contenant le nom des équipe à domicile
     $array_domicile = $crawler->filter('.lm3_eq1')->each(function ($node) {
         return $node->text();
@@ -41,8 +41,13 @@ $app->get('/last-score/{name}', function ($request, $response, $args) {
     });
 
     // on crée le tableau de réponse
-    foreach ($array_domicile as $key => $item){
-        $finalTab[$key] = array('id' => ($key+1), 'equipe_domicile' => $item, 'score' => $array_score[$key], 'equipe_exterieur' => $array_exterieur[$key]);
+    foreach ($array_domicile as $key => $item) {
+        $finalTab[$key] = array(
+            'id' => ($key + 1),
+            'equipe_domicile' => $item,
+            'score' => $array_score[$key],
+            'equipe_exterieur' => $array_exterieur[$key]
+        );
     }
 
     // return results in JSON
@@ -55,25 +60,33 @@ $app->get('/pays/{name}/championnat/{name-champ}', function ($request, $response
     // var declaration
     $name = $args['name'];
     $champ = $args['name-champ'];
-    $tab = [];
     $client = new Client();
     $crawler = $client->request('GET', 'http://www.matchendirect.fr/' . $name . '/' . $champ . '/');
     $finalTab = [];
 
-    // get information from page
-    $tab = $crawler->filter('.lm3 span')->each(function ($node) {
+    // tableau contenant le nom des équipe à domicile
+    $array_domicile = $crawler->filter('.lm3_eq1')->each(function ($node) {
         return $node->text();
     });
 
-    // construct tab results
-    foreach ($tab as $key => $item) {
+    // tableau contenant les scores
+    $array_score = $crawler->filter('.lm3_score')->each(function ($node) {
+        return $node->text();
+    });
 
-        $match[] = $item;
+    // tableau contenant le nom des équipe à l'exterieur
+    $array_exterieur = $crawler->filter('.lm3_eq2')->each(function ($node) {
+        return $node->text();
+    });
 
-        if (($key + 1) % 3 == 0) {
-            $finalTab[] = $match;
-            $match = [];
-        }
+    // on crée le tableau de réponse
+    foreach ($array_domicile as $key => $item) {
+        $finalTab[$key] = array(
+            'id' => ($key + 1),
+            'equipe_domicile' => $item,
+            'score' => $array_score[$key],
+            'equipe_exterieur' => $array_exterieur[$key]
+        );
     }
 
     // return results in JSON
@@ -91,27 +104,37 @@ $app->get('/pays/{name}/championnat/{name-champ}/date/{annee-jour}', function ($
     $tab = [];
     $client = new Client();
     $crawler = $client->request('GET', 'http://www.matchendirect.fr/' . $name . '/' . $champ . '/' . $date . '/');
-    $finalTab = [];
-    $tabRes = [];
 
-    // get information from page
-    $tab = $crawler->filter('.lm3 span')->each(function ($node) {
+    $finalTab = [];
+
+    // tableau contenant le nom des équipe à domicile
+    $array_domicile = $crawler->filter('.lm3_eq1')->each(function ($node) {
         return $node->text();
     });
 
-    // construct tab results
-    foreach ($tab as $key => $item) {
+    // tableau contenant les scores
+    $array_score = $crawler->filter('.lm3_score')->each(function ($node) {
+        return $node->text();
+    });
 
-        $match[] = $item;
+    // tableau contenant le nom des équipe à l'exterieur
+    $array_exterieur = $crawler->filter('.lm3_eq2')->each(function ($node) {
+        return $node->text();
+    });
 
-        if (($key + 1) % 3 == 0) {
-            $finalTab[] = $match;
-            $match = [];
-        }
+    // on crée le tableau de réponse
+    foreach ($array_domicile as $key => $item) {
+        $finalTab[$key] = array(
+            'id' => ($key + 1),
+            'equipe_domicile' => $item,
+            'score' => $array_score[$key],
+            'equipe_exterieur' => $array_exterieur[$key]
+        );
     }
 
     // return results in JSON
     return json_encode($finalTab);
+
 });
 
 //score d'un match
@@ -121,7 +144,8 @@ $app->get('/live-score/{name-dom}-{name-ext}', function ($request, $response, $a
     $domicile = $args['name-dom'];
     $exterieur = $args['name-ext'];
     $client = new Client();
-    $crawler = $client->request('GET', 'http://www.matchendirect.fr/live-score/' . $domicile . '-' . $exterieur . '.html');
+    $crawler = $client->request('GET',
+        'http://www.matchendirect.fr/live-score/' . $domicile . '-' . $exterieur . '.html');
     $finalTab = [];
 
     // get information from page
@@ -139,10 +163,7 @@ $app->get('/live-score/{name-dom}-{name-ext}', function ($request, $response, $a
     });
 
     // construct tab results
-    $finalTab[] = $domicile;
-    $finalTab[] = $domicile_score;
-    $finalTab[] = $exterieur_score;
-    $finalTab[] = $exterieur;
+    $finalTab[] = array('equipe_domicile' => $domicile[0], 'score_domicile' => $domicile_score[0], 'score_exterieur' => $exterieur_score[0], 'equipe_exterieur' => $exterieur[0]);
 
     // return results in JSON
     return json_encode($finalTab);
@@ -157,7 +178,8 @@ $app->get('/classement/pays/{name}/championnat/{name-champ}', function ($request
     $tabEquipe = [];
     $tabPts = [];
     $client = new Client();
-    $crawler = $client->request('GET', 'http://www.matchendirect.fr/classement-foot/' . $name . '/classement-' . $champ . '.html');
+    $crawler = $client->request('GET',
+        'http://www.matchendirect.fr/classement-foot/' . $name . '/classement-' . $champ . '.html');
     $finalTab = [];
 
     // get information from page
@@ -169,11 +191,10 @@ $app->get('/classement/pays/{name}/championnat/{name-champ}', function ($request
     });
 
     // construct tab results
-    foreach ($tabEquipe as $key => $item){
-        $finalTab[$key] = array('place' => ($key+1), 'equipe' => substr($item, 1), 'points' => (int)$tabPts[$key]);
+    foreach ($tabEquipe as $key => $item) {
+        $finalTab[$key] = array('place' => ($key + 1), 'equipe' => substr($item, 1), 'points' => (int)$tabPts[$key]);
     }
-
-
+    
     // return results in JSON
     return json_encode($finalTab);
 });
