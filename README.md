@@ -82,7 +82,7 @@
 ### Paramètres :
 
 <b>name (requis)</b> : nom de du pays (ex : france) <br>
-<b>name-champ (requis)</b> : nom du championnat (ex : ligue-1)
+<b>name-champ (requis)</b> : nom du championnat (ex : ligue-1) <br>
 <b>annee-jour (requis)</b> : date (ex : 2017-18)
 
 ### Route :
