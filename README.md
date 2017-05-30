@@ -149,6 +149,8 @@ _Essayer : [https://matchendirect-api.herokuapp.com/pays/france/championnat/ligu
   }
 ]
 ```
+_Essayer : [https://matchendirect-api.herokuapp.com/live-score/equipe/monaco-saint-etienne](https://matchendirect-api.herokuapp.com/live-score/equipe/monaco-saint-etienne)_
+
 
 ## 5) Classement d'un championnat
 
