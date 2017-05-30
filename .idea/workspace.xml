@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="27dd8e7e-4765-46c3-88bb-7cf52f6d8fcb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="MatchEnDirectAPI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+            <state relative-caret-position="251">
+              <caret line="160" column="204" selection-start-line="160" selection-start-column="204" selection-end-line="160" selection-end-column="204" />
               <folding>
                 <element signature="e#147#178#0#PHP" expanded="true" />
               </folding>
@@ -43,34 +44,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-87">
-                <caret line="132" column="13" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
+              <first_editor relative-caret-position="168">
+                <caret line="84" column="63" selection-start-line="84" selection-start-column="63" selection-end-line="84" selection-end-column="63" />
                 <folding>
-                  <marker date="1496132241000" expanded="true" signature="196:527" placeholder="[...]" />
-                  <marker date="1496132241000" expanded="true" signature="200:309" placeholder="{&quot;id&quot;: 1...}" />
-                  <marker date="1496132241000" expanded="true" signature="313:420" placeholder="{&quot;id&quot;: 2...}" />
-                  <marker date="1496132241000" expanded="true" signature="424:525" placeholder="{&quot;id&quot;: 3...}" />
-                  <marker date="1496132241000" expanded="true" signature="797:1145" placeholder="[...]" />
-                  <marker date="1496132241000" expanded="true" signature="801:914" placeholder="{&quot;id&quot;: 1...}" />
-                  <marker date="1496132241000" expanded="true" signature="918:1030" placeholder="{&quot;id&quot;: 2...}" />
-                  <marker date="1496132241000" expanded="true" signature="1034:1143" placeholder="{&quot;id&quot;: 3...}" />
-                  <marker date="1496132241000" expanded="true" signature="1487:1824" placeholder="[...]" />
-                  <marker date="1496132241000" expanded="true" signature="1491:1606" placeholder="{&quot;id&quot;: 1...}" />
-                  <marker date="1496132241000" expanded="true" signature="1610:1713" placeholder="{&quot;id&quot;: 2...}" />
-                  <marker date="1496132241000" expanded="true" signature="1717:1822" placeholder="{&quot;id&quot;: 3...}" />
-                  <marker date="1496132241000" expanded="true" signature="2138:2272" placeholder="[...]" />
-                  <marker date="1496132241000" expanded="true" signature="2142:2270" placeholder="{&quot;equipe_domicile&quot;: &quot;Bordeaux&quot;...}" />
-                  <marker date="1496132241000" expanded="true" signature="2546:2938" placeholder="[...]" />
-                  <marker date="1496132241000" expanded="true" signature="2550:2612" placeholder="{&quot;place&quot;: 1...}" />
-                  <marker date="1496132241000" expanded="true" signature="2616:2675" placeholder="{&quot;place&quot;: 2...}" />
-                  <marker date="1496132241000" expanded="true" signature="2679:2739" placeholder="{&quot;place&quot;: 3...}" />
-                  <marker date="1496132241000" expanded="true" signature="2743:2803" placeholder="{&quot;place&quot;: 4...}" />
-                  <marker date="1496132241000" expanded="true" signature="2807:2869" placeholder="{&quot;place&quot;: 19...}" />
-                  <marker date="1496132241000" expanded="true" signature="2873:2936" placeholder="{&quot;place&quot;: 20...}" />
+                  <marker date="1496134402000" expanded="true" signature="196:527" placeholder="[...]" />
+                  <marker date="1496134402000" expanded="true" signature="200:309" placeholder="{&quot;id&quot;: 1...}" />
+                  <marker date="1496134402000" expanded="true" signature="313:420" placeholder="{&quot;id&quot;: 2...}" />
+                  <marker date="1496134402000" expanded="true" signature="424:525" placeholder="{&quot;id&quot;: 3...}" />
+                  <marker date="1496134402000" expanded="true" signature="797:1145" placeholder="[...]" />
+                  <marker date="1496134402000" expanded="true" signature="801:914" placeholder="{&quot;id&quot;: 1...}" />
+                  <marker date="1496134402000" expanded="true" signature="918:1030" placeholder="{&quot;id&quot;: 2...}" />
+                  <marker date="1496134402000" expanded="true" signature="1034:1143" placeholder="{&quot;id&quot;: 3...}" />
+                  <marker date="1496134402000" expanded="true" signature="1492:1829" placeholder="[...]" />
+                  <marker date="1496134402000" expanded="true" signature="1496:1611" placeholder="{&quot;id&quot;: 1...}" />
+                  <marker date="1496134402000" expanded="true" signature="1615:1718" placeholder="{&quot;id&quot;: 2...}" />
+                  <marker date="1496134402000" expanded="true" signature="1722:1827" placeholder="{&quot;id&quot;: 3...}" />
+                  <marker date="1496134402000" expanded="true" signature="2143:2277" placeholder="[...]" />
+                  <marker date="1496134402000" expanded="true" signature="2147:2275" placeholder="{&quot;equipe_domicile&quot;: &quot;Bordeaux&quot;...}" />
+                  <marker date="1496134402000" expanded="true" signature="2551:2943" placeholder="[...]" />
+                  <marker date="1496134402000" expanded="true" signature="2555:2617" placeholder="{&quot;place&quot;: 1...}" />
+                  <marker date="1496134402000" expanded="true" signature="2621:2680" placeholder="{&quot;place&quot;: 2...}" />
+                  <marker date="1496134402000" expanded="true" signature="2684:2744" placeholder="{&quot;place&quot;: 3...}" />
+                  <marker date="1496134402000" expanded="true" signature="2748:2808" placeholder="{&quot;place&quot;: 4...}" />
+                  <marker date="1496134402000" expanded="true" signature="2812:2874" placeholder="{&quot;place&quot;: 19...}" />
+                  <marker date="1496134402000" expanded="true" signature="2878:2941" placeholder="{&quot;place&quot;: 20...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -232,18 +233,18 @@
       <option name="presentableId" value="Default" />
       <updated>1496044032877</updated>
       <workItem from="1496044034220" duration="139000" />
-      <workItem from="1496044265658" duration="14236000" />
+      <workItem from="1496044265658" duration="14821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14375000" />
+    <option name="totallyTimeSpent" value="14960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25767368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25767368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -318,46 +319,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-          <folding>
-            <element signature="e#147#178#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-87">
-            <caret line="132" column="13" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
+          <first_editor relative-caret-position="168">
+            <caret line="84" column="63" selection-start-line="84" selection-start-column="63" selection-end-line="84" selection-end-column="63" />
             <folding>
-              <marker date="1496132241000" expanded="true" signature="196:527" placeholder="[...]" />
-              <marker date="1496132241000" expanded="true" signature="200:309" placeholder="{&quot;id&quot;: 1...}" />
-              <marker date="1496132241000" expanded="true" signature="313:420" placeholder="{&quot;id&quot;: 2...}" />
-              <marker date="1496132241000" expanded="true" signature="424:525" placeholder="{&quot;id&quot;: 3...}" />
-              <marker date="1496132241000" expanded="true" signature="797:1145" placeholder="[...]" />
-              <marker date="1496132241000" expanded="true" signature="801:914" placeholder="{&quot;id&quot;: 1...}" />
-              <marker date="1496132241000" expanded="true" signature="918:1030" placeholder="{&quot;id&quot;: 2...}" />
-              <marker date="1496132241000" expanded="true" signature="1034:1143" placeholder="{&quot;id&quot;: 3...}" />
-              <marker date="1496132241000" expanded="true" signature="1487:1824" placeholder="[...]" />
-              <marker date="1496132241000" expanded="true" signature="1491:1606" placeholder="{&quot;id&quot;: 1...}" />
-              <marker date="1496132241000" expanded="true" signature="1610:1713" placeholder="{&quot;id&quot;: 2...}" />
-              <marker date="1496132241000" expanded="true" signature="1717:1822" placeholder="{&quot;id&quot;: 3...}" />
-              <marker date="1496132241000" expanded="true" signature="2138:2272" placeholder="[...]" />
-              <marker date="1496132241000" expanded="true" signature="2142:2270" placeholder="{&quot;equipe_domicile&quot;: &quot;Bordeaux&quot;...}" />
-              <marker date="1496132241000" expanded="true" signature="2546:2938" placeholder="[...]" />
-              <marker date="1496132241000" expanded="true" signature="2550:2612" placeholder="{&quot;place&quot;: 1...}" />
-              <marker date="1496132241000" expanded="true" signature="2616:2675" placeholder="{&quot;place&quot;: 2...}" />
-              <marker date="1496132241000" expanded="true" signature="2679:2739" placeholder="{&quot;place&quot;: 3...}" />
-              <marker date="1496132241000" expanded="true" signature="2743:2803" placeholder="{&quot;place&quot;: 4...}" />
-              <marker date="1496132241000" expanded="true" signature="2807:2869" placeholder="{&quot;place&quot;: 19...}" />
-              <marker date="1496132241000" expanded="true" signature="2873:2936" placeholder="{&quot;place&quot;: 20...}" />
+              <marker date="1496134402000" expanded="true" signature="196:527" placeholder="[...]" />
+              <marker date="1496134402000" expanded="true" signature="200:309" placeholder="{&quot;id&quot;: 1...}" />
+              <marker date="1496134402000" expanded="true" signature="313:420" placeholder="{&quot;id&quot;: 2...}" />
+              <marker date="1496134402000" expanded="true" signature="424:525" placeholder="{&quot;id&quot;: 3...}" />
+              <marker date="1496134402000" expanded="true" signature="797:1145" placeholder="[...]" />
+              <marker date="1496134402000" expanded="true" signature="801:914" placeholder="{&quot;id&quot;: 1...}" />
+              <marker date="1496134402000" expanded="true" signature="918:1030" placeholder="{&quot;id&quot;: 2...}" />
+              <marker date="1496134402000" expanded="true" signature="1034:1143" placeholder="{&quot;id&quot;: 3...}" />
+              <marker date="1496134402000" expanded="true" signature="1492:1829" placeholder="[...]" />
+              <marker date="1496134402000" expanded="true" signature="1496:1611" placeholder="{&quot;id&quot;: 1...}" />
+              <marker date="1496134402000" expanded="true" signature="1615:1718" placeholder="{&quot;id&quot;: 2...}" />
+              <marker date="1496134402000" expanded="true" signature="1722:1827" placeholder="{&quot;id&quot;: 3...}" />
+              <marker date="1496134402000" expanded="true" signature="2143:2277" placeholder="[...]" />
+              <marker date="1496134402000" expanded="true" signature="2147:2275" placeholder="{&quot;equipe_domicile&quot;: &quot;Bordeaux&quot;...}" />
+              <marker date="1496134402000" expanded="true" signature="2551:2943" placeholder="[...]" />
+              <marker date="1496134402000" expanded="true" signature="2555:2617" placeholder="{&quot;place&quot;: 1...}" />
+              <marker date="1496134402000" expanded="true" signature="2621:2680" placeholder="{&quot;place&quot;: 2...}" />
+              <marker date="1496134402000" expanded="true" signature="2684:2744" placeholder="{&quot;place&quot;: 3...}" />
+              <marker date="1496134402000" expanded="true" signature="2748:2808" placeholder="{&quot;place&quot;: 4...}" />
+              <marker date="1496134402000" expanded="true" signature="2812:2874" placeholder="{&quot;place&quot;: 19...}" />
+              <marker date="1496134402000" expanded="true" signature="2878:2941" placeholder="{&quot;place&quot;: 20...}" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="160" column="204" selection-start-line="160" selection-start-column="204" selection-end-line="160" selection-end-column="204" />
+          <folding>
+            <element signature="e#147#178#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

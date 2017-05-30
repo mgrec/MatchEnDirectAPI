@@ -144,26 +144,21 @@ $app->get('/live-score/equipe/{name-dom}-{name-ext}', function ($request, $respo
     $domicile = $args['name-dom'];
     $exterieur = $args['name-ext'];
     $client = new Client();
+    $replace = ["\t","\n"];
     $crawler = $client->request('GET',
         'http://www.matchendirect.fr/live-score/' . $domicile . '-' . $exterieur . '.html');
     $finalTab = [];
 
     // get information from page
-    $domicile = $crawler->filter('.blocmatch .col1')->each(function ($node) {
+    $equipe = $crawler->filter('.team')->each(function ($node) {
         return $node->text();
     });
-    $domicile_score = $crawler->filter('.blocmatch .col2')->each(function ($node) {
-        return $node->text();
-    });
-    $exterieur_score = $crawler->filter('.blocmatch .col3')->each(function ($node) {
-        return $node->text();
-    });
-    $exterieur = $crawler->filter('.blocmatch .col4')->each(function ($node) {
+    $score = $crawler->filter('.score')->each(function ($node) {
         return $node->text();
     });
 
     // construct tab results
-    $finalTab[] = array('equipe_domicile' => $domicile[0], 'score_domicile' => $domicile_score[0], 'score_exterieur' => $exterieur_score[0], 'equipe_exterieur' => $exterieur[0]);
+    $finalTab[] = array('equipe_domicile' => str_replace($replace, '', $equipe[0]), 'score_domicile' => $score[0], 'score_exterieur' => $score[1], 'equipe_exterieur' => str_replace($replace, '', $equipe[1]),);
 
     // return results in JSON
     return json_encode($finalTab);
