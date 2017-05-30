@@ -132,20 +132,14 @@
 
 ### Réponse :
 
-```
+```json
 [
-  [
-    "Bordeaux"
-  ],
-  [
-    " 1"
-  ],
-  [
-    "1 "
-  ],
-  [
-    "Lyon"
-  ]
+  {
+    "equipe_domicile": "Bordeaux",
+    "score_domicile": " 1",
+    "score_exterieur": "1 ",
+    "equipe_exterieur": "Lyon"
+  }
 ]
 ```
 
