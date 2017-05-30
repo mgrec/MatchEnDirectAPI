@@ -181,7 +181,7 @@ $app->get('/classement/pays/{name}/championnat/{name-champ}', function ($request
     $tabEquipe = $crawler->filter('.equipe')->each(function ($node) {
         return $node->text();
     });
-    $tabPts = $crawler->filter('.tableau b')->each(function ($node) {
+    $tabPts = $crawler->filter('.tab-content td strong')->each(function ($node) {
         return $node->text();
     });
 
