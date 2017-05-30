@@ -17,7 +17,7 @@ $app->get('/', function ($request, $response, $args) {
 });
 
 //tout les match d'une équipe
-$app->get('/last-score/{name}', function ($request, $response, $args) {
+$app->get('/last-score/equipe/{name}', function ($request, $response, $args) {
 
     // var declaration
     $name = $args['name'];
@@ -138,7 +138,7 @@ $app->get('/pays/{name}/championnat/{name-champ}/date/{annee-jour}', function ($
 });
 
 //score d'un match
-$app->get('/live-score/{name-dom}-{name-ext}', function ($request, $response, $args) {
+$app->get('/live-score/equipe/{name-dom}-{name-ext}', function ($request, $response, $args) {
 
     // var declaration
     $domicile = $args['name-dom'];
@@ -194,7 +194,7 @@ $app->get('/classement/pays/{name}/championnat/{name-champ}', function ($request
     foreach ($tabEquipe as $key => $item) {
         $finalTab[$key] = array('place' => ($key + 1), 'equipe' => substr($item, 1), 'points' => (int)$tabPts[$key]);
     }
-    
+
     // return results in JSON
     return json_encode($finalTab);
 });

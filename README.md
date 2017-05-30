@@ -10,7 +10,7 @@
 ### Route :
 
 ```
-/last-score/{name}
+/last-score/equipe/{name}
 ```
 
 ### Réponse :
@@ -127,7 +127,7 @@
 ### Route :
 
 ```
-/live-score/{name-dom}-{name-ext}
+/live-score/equipe/{name-dom}-{name-ext}
 ```
 
 ### Réponse :
