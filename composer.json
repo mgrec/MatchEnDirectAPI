@@ -1,0 +1,12 @@
+{
+  "require": {
+    "slim/slim": "^3.0",
+    "fabpot/goutte": "^3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Controller\\": "Controller/",
+      "Model\\": "Model/"
+    }
+  }
+}
