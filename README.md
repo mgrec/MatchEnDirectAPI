@@ -119,6 +119,7 @@ _Essayer : [https://matchendirect-api.herokuapp.com/pays/france/championnat/ligu
 ]
 ```
 
+_Essayer : [https://matchendirect-api.herokuapp.com/pays/france/championnat/ligue-1/date/2017-18](https://matchendirect-api.herokuapp.com/pays/france/championnat/ligue-1/date/2017-18)_
 
 ## 4) Score d'un match en particulier (en cours ou fini)
 
