@@ -15,7 +15,7 @@
 
 ### Réponse :
 
-```
+```json
 [
   {
     "id": 1,
@@ -34,8 +34,7 @@
     "equipe_domicile": "PSG",
     "score": "4 - 1",
     "equipe_exterieur": "Lyon"
-  },
-  ...
+  }
  ]
 ```
 
