@@ -526,18 +526,6 @@
         },
         {
             "name": "symfony/browser-kit",
-<<<<<<< HEAD
-            "version": "v3.2.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/browser-kit.git",
-                "reference": "9fab1ab6f77b77f3df5fc5250fc6956811699b57"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/browser-kit/zipball/9fab1ab6f77b77f3df5fc5250fc6956811699b57",
-                "reference": "9fab1ab6f77b77f3df5fc5250fc6956811699b57",
-=======
             "version": "v3.3.0",
             "source": {
                 "type": "git",
@@ -548,7 +536,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/browser-kit/zipball/c2c8ceb1aa9dab9eae54e9150e6a588ce3e53be1",
                 "reference": "c2c8ceb1aa9dab9eae54e9150e6a588ce3e53be1",
->>>>>>> e72a88ac07c3d7d1078e5b66b393f8838fb33ba5
                 "shasum": ""
             },
             "require": {
@@ -565,11 +552,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
-                    "dev-master": "3.2-dev"
-=======
                     "dev-master": "3.3-dev"
->>>>>>> e72a88ac07c3d7d1078e5b66b393f8838fb33ba5
                 }
             },
             "autoload": {
@@ -596,22 +579,6 @@
             ],
             "description": "Symfony BrowserKit Component",
             "homepage": "https://symfony.com",
-<<<<<<< HEAD
-            "time": "2017-04-12 14:13:17"
-        },
-        {
-            "name": "symfony/css-selector",
-            "version": "v3.2.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/css-selector.git",
-                "reference": "02983c144038e697c959e6b06ef6666de759ccbc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/02983c144038e697c959e6b06ef6666de759ccbc",
-                "reference": "02983c144038e697c959e6b06ef6666de759ccbc",
-=======
             "time": "2017-04-12 14:14:56"
         },
         {
@@ -626,7 +593,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/css-selector/zipball/4d882dced7b995d5274293039370148e291808f2",
                 "reference": "4d882dced7b995d5274293039370148e291808f2",
->>>>>>> e72a88ac07c3d7d1078e5b66b393f8838fb33ba5
                 "shasum": ""
             },
             "require": {
@@ -635,11 +601,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
-                    "dev-master": "3.2-dev"
-=======
                     "dev-master": "3.3-dev"
->>>>>>> e72a88ac07c3d7d1078e5b66b393f8838fb33ba5
                 }
             },
             "autoload": {
@@ -670,22 +632,6 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-<<<<<<< HEAD
-            "time": "2017-05-01 14:55:58"
-        },
-        {
-            "name": "symfony/dom-crawler",
-            "version": "v3.2.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "f1ad34e8af09ed17570e027cf0c58a12eddec286"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/f1ad34e8af09ed17570e027cf0c58a12eddec286",
-                "reference": "f1ad34e8af09ed17570e027cf0c58a12eddec286",
-=======
             "time": "2017-05-01 15:01:29"
         },
         {
@@ -700,7 +646,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/fc2c588ce376e9fe04a7b8c79e3ec62fe32d95b1",
                 "reference": "fc2c588ce376e9fe04a7b8c79e3ec62fe32d95b1",
->>>>>>> e72a88ac07c3d7d1078e5b66b393f8838fb33ba5
                 "shasum": ""
             },
             "require": {
@@ -716,11 +661,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
-                    "dev-master": "3.2-dev"
-=======
                     "dev-master": "3.3-dev"
->>>>>>> e72a88ac07c3d7d1078e5b66b393f8838fb33ba5
                 }
             },
             "autoload": {
@@ -747,11 +688,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-<<<<<<< HEAD
-            "time": "2017-04-12 14:13:17"
-=======
             "time": "2017-05-25 23:10:31"
->>>>>>> e72a88ac07c3d7d1078e5b66b393f8838fb33ba5
         },
         {
             "name": "symfony/polyfill-mbstring",
