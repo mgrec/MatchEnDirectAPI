@@ -78,6 +78,8 @@ _Essayer : [https://matchendirect-api.herokuapp.com/last-score/equipe/lyon](http
 ]
 ```
 
+_Essayer : [https://matchendirect-api.herokuapp.com/pays/france/championnat/ligue-1](https://matchendirect-api.herokuapp.com/pays/france/championnat/ligue-1)_
+
 ## 3) Journée d'un championnat en particulier
 
 ### Paramètres :
