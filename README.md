@@ -17,21 +17,24 @@
 
 ```
 [
-  [
-    "Lyon",
-    "5 - 0",
-    "Montpellier"
-  ],
-  [
-    "Marseille",
-    "2 - 1",
-    "Lyon"
-  ],
-  [
-    "PSG",
-    "4 - 1",
-    "Lyon"
-  ],
+  {
+    "id": 1,
+    "equipe_domicile": "Lyon",
+    "score": "5 - 0",
+    "equipe_exterieur": "Montpellier"
+  },
+  {
+    "id": 2,
+    "equipe_domicile": "Marseille",
+    "score": "2 - 1",
+    "equipe_exterieur": "Lyon"
+  },
+  {
+    "id": 3,
+    "equipe_domicile": "PSG",
+    "score": "4 - 1",
+    "equipe_exterieur": "Lyon"
+  },
   ...
  ]
 ```
